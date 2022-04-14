@@ -1,15 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: "Karma", sans-serif;
-  line-height: 1.5
-
+  font-family: Karma, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-body {
 }
 
 main ol {
@@ -37,7 +33,7 @@ ol li img {
 }
 
 h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: Oswald, sans-serif;
   font-size: 2rem;
   color: #987ffa;
   align-self: center;
@@ -88,17 +84,4 @@ ul li:nth-child(2) {
   flex-direction: row;
   width: 25%;
   border-style: none;
-}
-
-/*.break {
-  flex-basis: 35%;
-  height: 0;
-}*/
-
-ul li:nth-child(3) {
-  border: none;
-}
-
-ul li:nth-child(4) {
-  border: none;
 }
