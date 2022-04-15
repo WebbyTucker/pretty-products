@@ -60,7 +60,8 @@ ol li p {
 }
 
 ul {
-  padding: .7em 1em;
+  margin: .25em;
+  padding: .7em;
   display: flex;
   justify-content: space-between;
   align-content: center;
