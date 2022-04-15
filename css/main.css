@@ -3,6 +3,7 @@ html {
   font-family: Karma, serif;
   line-height: 1.5;
   margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
@@ -11,11 +12,14 @@ html {
 
 main ol {
   display: grid;
+  padding: .25em;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
 ol li {
+  margin: .25em;
+  padding: .25em;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -28,13 +32,14 @@ ol li {
 }
 
 ol li img {
+  margin: 1.5rem;
   width: 70%;
   color: #6f00e7;
   align-self: center;
 }
 
 h2 {
-  margin-bottom: 0;
+  margin: .25em;
   font-family: Oswald, sans-serif;
   font-weight: bold;
   font-size: 2rem;
@@ -43,7 +48,7 @@ h2 {
 }
 
 ol li p {
-  margin: 0 0 1rem;
+  margin: .25em;
   font-size: 1.4rem;
   font-weight: normal;
   color: #000;
@@ -52,23 +57,8 @@ ol li p {
   flex-grow: 1;
 }
 
-ul li p {
-  margin: 0;
-  font-family: Oswald, sans-serif;
-  font-weight: normal;
-  text-align: left;
-  flex-grow: .5;
-  font-size: 1rem;
-  color: #fff;
-}
-
-ul li img {
-  width: auto;
-  padding: .5em;
-  align-self: flex-end;
-}
-
 ul {
+  margin: .25em;
   padding: .5em 1.5em .7em;
   display: flex;
   justify-content: space-between;
@@ -78,6 +68,22 @@ ul {
   list-style: none;
   color: #987ffa;
 }
+
+ul li p {
+  font-family: Oswald, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  flex-grow: .5;
+  font-size: 1rem;
+  color: #fff;
+}
+
+ul li img {
+  margin: 0;
+  width: auto;
+}
+
+
 
 ul li:nth-child(1) {
   display: flex;
@@ -93,6 +99,7 @@ ul li:nth-child(1) {
 
 ul li:nth-child(2) {
   display: flex;
+  align-content: center;
   justify-content: space-around;
   flex-direction: row;
   width: 25%;
