@@ -18,7 +18,7 @@ main ol {
 }
 
 ol li {
-  margin: .25em;
+  margin: 0;
   padding: .25em;
   list-style: none;
   display: flex;
@@ -32,7 +32,7 @@ ol li {
 }
 
 ol li img {
-  margin: 1.5rem;
+  margin: .25em;
   width: 70%;
   color: #6f00e7;
   align-self: center;
@@ -58,7 +58,6 @@ ol li p {
 }
 
 ul {
-  margin: .25em;
   padding: .5em 1.5em .7em;
   display: flex;
   justify-content: space-between;
@@ -82,8 +81,6 @@ ul li img {
   margin: 0;
   width: auto;
 }
-
-
 
 ul li:nth-child(1) {
   display: flex;
